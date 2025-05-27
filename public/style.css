@@ -232,7 +232,7 @@ header nav a:hover{
     }
 }
 @media (max-width: 768px) {
-    /* Hide the images for small devices */
+    
     .face,
     .platform,
     .rotating-img {
@@ -240,21 +240,15 @@ header nav a:hover{
     }
 
     
-    header h2 {
-        margin-bottom: 10px;
-    }
+    
     
     .text-box {
         width: 90%;
         text-align: center;
         margin: 20px 0;
     }
-    .text-box h1 {
-        font-size: 32px;
-    }
-    .text-box h1:nth-child(2) {
-        font-size: 24px;
-    }
+    
+    
     .btn {
         font-size: 16px;
         padding: 10px 20px;
@@ -441,6 +435,20 @@ header nav a:hover{
     font-size: 0.9em;
     color: #555;
   }
+@media (max-width: 768px) {
+  .card {
+    flex: 1 1 calc(33.333% - 20px); /* 3 per row */
+    max-width: calc(33.333% - 20px);
+  }
+}
+
+/* Optional: stack cards vertically on very small screens */
+@media (max-width: 480px) {
+  .card {
+    flex: 1 1 100%;
+    max-width: 100%;
+  }
+}
 
   /* -----------------------------------
        End Skills Section 
