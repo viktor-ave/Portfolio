@@ -46,7 +46,7 @@ header nav a{
 
 header nav .active,
 header nav a:hover{
-    color: #de12d0;
+    color: #8503bd;
 }
 
 .call{
@@ -55,7 +55,7 @@ header nav a:hover{
     border-radius: 30px;
     color: #fff;
     font-size: 18px;
-    background: #de12d0;
+    background: #8503bd;
     cursor: pointer;
     font-weight: 400;
     transition: .3s ease-in-out;
@@ -63,8 +63,8 @@ header nav a:hover{
 
 .call:hover{
     background: transparent;
-    color: #de12d0;
-    border: 2px solid #de12d0;
+    color: #8503bd;
+    border: 2px solid #8503bd;
 }
 
 /* --------------------------------------
@@ -95,7 +95,7 @@ header nav a:hover{
 }
 
 .text-box h1{
-    color: #de12d0;
+    color: #8503bd;
     font-size: 62px;
     animation: to-right 1s ease forwards 1.3s;
 }
@@ -124,7 +124,7 @@ header nav a:hover{
     color: white;
     padding: 12px 30px;
     font-size: 22px;
-    border: 2px solid #de12d0;
+    border: 2px solid #8503bd;
     background: transparent;
     border-radius: 5px;
     cursor: pointer;
@@ -136,7 +136,7 @@ header nav a:hover{
 .btn:hover,
 .btn:nth-child(2){
     color: black;
-    background-color: #de12d0;
+    background-color: #8503bd;
 }
 
 .btn:nth-child(2):hover{
@@ -265,7 +265,7 @@ header nav a:hover{
 }
 
 .abt-content h2{
-    color: #de12d0;
+    color: #8503bd;
     font-size: 40px;
     font-weight: 400;
 }
@@ -282,7 +282,7 @@ header nav a:hover{
     color: #fff;
     padding: 12px 30px;
     font-size: 20px;
-    border: 2px solid #de12d0;
+    border: 2px solid #8503bd;
     background: transparent;
     border-radius: 5px;
     cursor: pointer;
@@ -297,7 +297,7 @@ header nav a:hover{
 }
 .abt-me{
     border-radius: 6%;
-    border: #de12d0 2px solid;
+    border: #8503bd 2px solid;
     height: 450px;
     width: 300px;
 }
@@ -334,7 +334,7 @@ header nav a:hover{
     text-decoration: underline 1px solid;
     margin: 0 auto;
     text-align: center;
-    color: #de12d0;
+    color: #8503bd;
   }
   
   
@@ -517,15 +517,9 @@ header nav a:hover{
   .contact_us_2 .text-blk.contactus-head {
     font-size: 36px;
     line-height: 50px;
-    font-weight: 900;
-  }
-  
-  .contact_us_2 .text-blk.contactus-subhead {
-    color: #9c9c9c;
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 50px;
-    margin-left: 0px;
+    font-weight: 700;
+    color: #8503bd;
+    font-family: 'Courier New', Courier, monospace;
   }
   
   .contact_us_2 .responsive-cell-block.wk-desk-6.wk-ipadp-6.wk-tab-12.wk-mobile-12 {
@@ -543,18 +537,18 @@ header nav a:hover{
     padding-right: 15px;
     padding-bottom: 1px;
     padding-left: 15px;
-    border-top-width: 2px;
-    border-right-width: 2px;
-    border-bottom-width: 2px;
-    border-left-width: 2px;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
     border-top-style: solid;
     border-right-style: solid;
     border-bottom-style: solid;
     border-left-style: solid;
-    border-top-color: #eeeeee;
-    border-right-color: #eeeeee;
-    border-bottom-color: #eeeeee;
-    border-left-color: #eeeeee;
+    border-top-color: #8503bd;
+    border-right-color: #8503bd;
+    border-bottom-color: #8503bd;
+    border-left-color: #8503bd;
     border-image-source: initial;
     border-image-slice: initial;
     border-image-width: initial;
@@ -583,10 +577,10 @@ header nav a:hover{
     border-right-style: solid;
     border-bottom-style: solid;
     border-left-style: solid;
-    border-top-color: #eeeeee;
-    border-right-color: #eeeeee;
-    border-bottom-color: #eeeeee;
-    border-left-color: #eeeeee;
+    border-top-color: #8503bd;
+    border-right-color: #8503bd;
+    border-bottom-color: #8503bd;
+    border-left-color: #8503bd;
     border-image-source: initial;
     border-image-slice: initial;
     border-image-width: initial;
