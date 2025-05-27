@@ -232,51 +232,30 @@ header nav a:hover{
     }
 }
 @media (max-width: 768px) {
-    .face {
-        display: none;
-    }
-
-    /* Optional: Adjust other elements for better mobile fit */
-    .text-box {
-        width: 80%;
-    }
-
-    header {
-        padding: 10px 20px;
-    }
-
-    /* Adjust font sizes for smaller screens if needed */
-    header h2 {
-        font-size: 18px;
-        margin-left: 20px;
-    }
-
-    header nav a {
-        margin-left: 20px;
-        font-size: 16px;
-    }
-
-    .btn-box {
+    .Home {
         flex-direction: column;
-        gap: 10px;
+        padding: 20px;
+        align-items: center;
+        justify-content: start;
     }
 
-    /* Resize text elements */
-    .text-box h1 {
-        font-size: 40px;
-    }
-
-    .text-box h1:nth-child(2) {
-        font-size: 28px;
-    }
-
-    .text-box p {
-        width: 100%;
-        font-size: 14px;
+    /* Make text-box occupy full width and center */
+    .text-box {
+        width: 90%;
+        text-align: center;
         margin: 20px 0;
     }
-}
 
+    /* Adjust images */
+    .rotating-img, /* rotating image positioning if needed for mobile */
+    .face,
+    .platform {
+        width: 100%;
+        height: auto;
+        display: block;
+        margin: 20px auto;
+    }
+}
 /* -----------------------------------
        End Home Section 
    -----------------------------------  */
@@ -366,6 +345,11 @@ header nav a:hover{
     .abt-content {
         width: 80%;
         margin-left: 20px;
+    }
+}
+@media (max-width: 768px) {
+    .face {
+        display: none;
     }
 }
 
