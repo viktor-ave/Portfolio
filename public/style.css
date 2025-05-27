@@ -357,6 +357,17 @@ header nav a:hover{
         opacity: 1;
     }
 }
+@media (max-width: 768px) {
+    .abt-me {
+        display: none;
+    }
+
+    /* Optional: make the about content more adaptable on smaller screens */
+    .abt-content {
+        width: 80%;
+        margin-left: 20px;
+    }
+}
 
 /* -----------------------------------
        End About Section 
