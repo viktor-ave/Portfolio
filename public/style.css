@@ -231,6 +231,51 @@ header nav a:hover{
         opacity: 1;
     }
 }
+@media (max-width: 768px) {
+    .face {
+        display: none;
+    }
+
+    /* Optional: Adjust other elements for better mobile fit */
+    .text-box {
+        width: 80%;
+    }
+
+    header {
+        padding: 10px 20px;
+    }
+
+    /* Adjust font sizes for smaller screens if needed */
+    header h2 {
+        font-size: 18px;
+        margin-left: 20px;
+    }
+
+    header nav a {
+        margin-left: 20px;
+        font-size: 16px;
+    }
+
+    .btn-box {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    /* Resize text elements */
+    .text-box h1 {
+        font-size: 40px;
+    }
+
+    .text-box h1:nth-child(2) {
+        font-size: 28px;
+    }
+
+    .text-box p {
+        width: 100%;
+        font-size: 14px;
+        margin: 20px 0;
+    }
+}
 
 /* -----------------------------------
        End Home Section 
