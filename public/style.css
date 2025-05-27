@@ -232,6 +232,32 @@ header nav a:hover{
     }
 }
 @media (max-width: 768px) {
+    /* Hide the images for small devices */
+    .face,
+    .platform,
+    .rotating-img {
+        display: none;
+    }
+
+    /* Make the header and nav more mobile-friendly */
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px 20px;
+    }
+
+    header h2 {
+        margin-bottom: 10px;
+    }
+
+    header nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    /* Adjust the Home section layout */
     .Home {
         flex-direction: column;
         padding: 20px;
@@ -239,21 +265,26 @@ header nav a:hover{
         justify-content: start;
     }
 
-    /* Make text-box occupy full width and center */
+    /* Make text-box occupy full width and center text */
     .text-box {
         width: 90%;
         text-align: center;
         margin: 20px 0;
     }
 
-    /* Adjust images */
-    .rotating-img, /* rotating image positioning if needed for mobile */
-    .face,
-    .platform {
-        width: 100%;
-        height: auto;
-        display: block;
-        margin: 20px auto;
+    /* Optional: resize and arrange images below text-box if needed */
+    /* Since images are hidden, this is optional or for future use */
+
+    /* Adjust font sizes if desired for smaller devices */
+    .text-box h1 {
+        font-size: 32px;
+    }
+    .text-box h1:nth-child(2) {
+        font-size: 24px;
+    }
+    .btn {
+        font-size: 16px;
+        padding: 10px 20px;
     }
 }
 /* -----------------------------------
